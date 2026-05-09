@@ -21,7 +21,7 @@ Production-grade file processing system built with **React + Vite**, **Node.js/E
 docker-compose up -d --build
 
 # 2. Open the app
-open http://localhost
+open http://server-ip
 ```
 
 ## Project Structure
@@ -56,21 +56,6 @@ fileforge/
     ├── middleware/upload.js
     ├── controllers/fileController.js
     └── routes/files.js
-```
-
-## Local Development (without Docker)
-
-```bash
-# Backend
-cd backend
-cp .env.example .env
-npm install
-npm run dev          # http://localhost:5000
-
-# Frontend (separate terminal)
-cd frontend
-npm install
-npm run dev          # http://localhost:5173  (Vite dev server with proxy)
 ```
 
 ## API Reference
