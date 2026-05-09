@@ -23,6 +23,13 @@ docker-compose up -d --build
 # 2. Open the app
 open http://server-ip
 ```
+# 3. Change Ip address 
+/fileforge-docker-aws/nginx/default.conf (line no 17)
+/fileforge-docker-aws/backend/server.js (line no 42)
+
+# 4. Container Names
+Keep contaienrs Name same as written in docker compose 
+(frontend , backend, mongo, nginx-proxy)
 
 ## Project Structure
 
